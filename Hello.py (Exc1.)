@@ -1,0 +1,8 @@
+#Exercise 1.1
+
+#create variable name which asks user for name and save thi information
+name = input("What is your name? ")
+#change value of name and remove white spaces
+name = name.strip()
+#print greeting with using user name
+print(f"Hello, {name}, nice to meet you!")
